@@ -1,8 +1,7 @@
-# Quiz z pierwszego dnia kursu:
+# Quiz z pierwszego dnia kursu
 #
 # Definicje zmiennych
 x = 0
-wynik = x
 dobrze = "Dobrze!"
 zle = "Może lepiej Ci pójdzie z następnym pytaniem... :-("
 zle10 = "Chyba jednak nie."
@@ -36,18 +35,18 @@ odp10 = ["niedostępne", "gratis", "płatne w chińskich yuanach"]
 #
 #
 # WPROWADZENIE
-print(" ")
+print()
 print("""**QUIZ**
 
 Witaj, śmiałku! :-)
 Zmierz się z Pythonem po pierwszym dniu kursu.
 Na każde pytanie jest tylko jedna prawidłowa odpowiedź.""")
-print(" ")
+print()
 print("Startujemy?")
 while True:
     odp_0 = input("tak/nie: ")
     if odp_0 == "tak":
-        print(" ")
+        print()
         print(pytanie1)
         break
     elif odp_0 == "nie":
@@ -62,17 +61,17 @@ while True:
     if odp_1 == "Google":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie2)
         break
     elif odp_1 == "Facebook":
         print(zle)
-        print(" ")
+        print()
         print(pytanie2)
         break
     elif odp_1 == "Instagram":
         print(zle)
-        print(" ")
+        print()
         print(pytanie2)
         break
     elif odp_1 != odp1[0:3]:
@@ -84,17 +83,17 @@ while True:
     if odp_2 == "binarny":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie3)
         break
     elif odp_2 == "szesnastkowy":
         print(zle)
-        print(" ")
+        print()
         print(pytanie3)
         break
     elif odp_2 == "dziesiętny":
         print(zle)
-        print(" ")
+        print()
         print(pytanie3)
         break
     elif odp_2 != odp2[0:3]:
@@ -106,17 +105,17 @@ while True:
     if odp_3 == "instrukcje warunkowe":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie4)
         break
     elif odp_3 == "klemy":
         print(zle)
-        print(" ")
+        print()
         print(pytanie4)
         break
     elif odp_3 == "deoksyrybonukleotydy":
         print(zle)
-        print(" ")
+        print()
         print(pytanie4)
         break
     elif odp_3 != odp3[0:3]:
@@ -128,17 +127,17 @@ while True:
     if odp_4 == "cd":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie5)
         break
     elif odp_4 == "ls":
         print(zle)
-        print(" ")
+        print()
         print(pytanie5)
         break
     elif odp_4 == "emerge":
         print(zle)
-        print(" ")
+        print()
         print(pytanie5)
         break
     elif odp_4 != odp4[0:3]:
@@ -150,17 +149,17 @@ while True:
     if odp_5 == "touch":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie6)
         break
     elif odp_5 == "create":
         print(zle)
-        print(" ")
+        print()
         print(pytanie6)
         break
     elif odp_5 == "mkdir":
         print(zle)
-        print(" ")
+        print()
         print(pytanie6)
         break
     elif odp_5 != odp5[0:3]:
@@ -172,17 +171,17 @@ while True:
     if odp_6 == "interpretowany":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie7)
         break
     elif odp_6 == "obcy":
         print(zle)
-        print(" ")
+        print()
         print(pytanie7)
         break
     elif odp_6 == "kompilowany":
         print(zle)
-        print(" ")
+        print()
         print(pytanie7)
         break
     elif odp_6 != odp6[0:3]:
@@ -194,17 +193,17 @@ while True:
     if odp_7 == "rozproszonym":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie8)
         break
     elif odp_7 == "gwiezdnym":
         print(zle)
-        print(" ")
+        print()
         print(pytanie8)
         break
     elif odp_7 == "centralnym":
         print(zle)
-        print(" ")
+        print()
         print(pytanie8)
         break
     elif odp_7 != odp7[0:3]:
@@ -216,17 +215,17 @@ while True:
     if odp_8 == "git pull":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie9)
         break
     elif odp_8 == "git add":
         print(zle)
-        print(" ")
+        print()
         print(pytanie9)
         break
     elif odp_8 == "git init":
         print(zle)
-        print(" ")
+        print()
         print(pytanie9)
         break
     elif odp_8 != odp8[0:3]:
@@ -238,17 +237,17 @@ while True:
     if odp_9 == "algorytm":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(pytanie10)
         break
     elif odp_9 == "zbiór instrukcji":
         print(zle)
-        print(" ")
+        print()
         print(pytanie10)
         break
     elif odp_9 == "archiwum":
         print(zle)
-        print(" ")
+        print()
         print(pytanie10)
         break
     elif odp_9 != odp9[0:3]:
@@ -260,25 +259,25 @@ while True:
     if odp_10 == "gratis":
         print(dobrze)
         x += 1
-        print(" ")
+        print()
         print(zakonczenie)
         break
     elif odp_10 == "płatne w chińskich yuanach":
         print(zle10)
-        print(" ")
+        print()
         print(zakonczenie)
         break
     elif odp_10 == "niedostępne":
         print(zle10)
-        print(" ")
+        print()
         print(zakonczenie)
         break
     elif odp_10 != odp10[0:3]:
         print(blad)
 
 # Zakończenie
-print(" ")
-print("Twój wynik to: ", x)
+print()
+print("Twój wynik to:", x, "/10")
 if x == 10:
     print(wynik10)
 elif x > 6 and x < 10:
